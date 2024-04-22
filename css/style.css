@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+    :root{
+        --lime: #00FF00;
+        --gray1: #a39797;
+        --DarkMagenta: #8B008B;
+        --Red: #FF0000;
+        --navajo: #FFDEAD;
+        --burly: #DEB887;
+        --white: #FFFFFF;
+        --cornsilk: #FFF8DC;
+    }
+
+     a {
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        text-transform: uppercase;
+        }
+   
+   .titulo2 {
+background-color: var(--navajo);
+text-align: center;
+font-family: "Raleway", cursive;
+color: var(--black);
+border-radius: 10px;
+margin: 25px;
+padding: 5px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;;
+    list-style: none;
+}
+
+.topo-do-site {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(fundo.jpg);
+    background-size: 100%;
+}
+.image-container {
+    width: 250px;
+}
+
+.topo-do-site img {
+    width: 150px;
+    max-height: auto;
+}
+
+
+/*Corpo*/
+
+.corpo {
+    background-color: var(--cornsilk);
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.imagem-container {
+max-width: 250px;
+}
+
+.section-container {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+gap: 50px;
+text-align: center;
+}
+
+.product-price {
+    font-size: 20px;
+    color: var(--Red);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.divisao-container {
+    display: grid;
+    padding-bottom: 10px;
+}
+
+.caixa-container {
+width: 25%;
+text-align: center;
+font-size: 19px;
+margin-left: 130px;
+}
+
+.butao {
+    width: 95px;
+    height: 30px; 
+    text-align: center;
+    font-size: 15px;
+    margin-left: 125px;
+}
+
+/*cardápio | drinks*/
+.imagem-cardapio-container {
+width: 50%;
+border-radius: 100px;
+}
+
+.divisao-cardapio-container {
+
+
+
+}
