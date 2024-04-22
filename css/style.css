@@ -150,3 +150,7 @@ width: 250px;
 .divisao {
     background-color: var(--gray1);
 }
+
+.principal {
+    background-image: url(madeira.jpg);
+}
