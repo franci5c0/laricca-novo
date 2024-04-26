@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
 * {
@@ -21,6 +20,10 @@
         --crimson: #DC143C;
         --bisque: #FFE4C4;
         --black: #000000;
+        --chocolate: #D2691E;
+        --sienna: #A0522D;
+        --saddlebrown: #8B4513;
+        --darkred: #8B0000;
     }
     /*links gerais*/
      a {
@@ -34,7 +37,7 @@
         /*lista separada do header*/
 
    .titulo2 {
-background-color: var(--navajo);
+background-color: var(--saddlebrown);
 text-align: center;
 font-family: "Raleway", cursive;
 color: var(--black);
@@ -71,8 +74,7 @@ cursor: pointer;
     background-color: var(--white);
     display: flex;
     justify-content: space-between;
-    
-    background-image: url(fundo.jpg);
+    background-image: url(fundo-de-textura-de-madeira.jpg);
     background-size: 100%;
 }
 
@@ -93,19 +95,20 @@ cursor: pointer;
 
 .corpo {
     background-color: var(--cornsilk);
+    background-image: url(funto-amadeirado.jpg);
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+  
 }
 
-.drink-container {
+.sugestao-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px,1fr ));
+    margin: 10px;
+
 }
 
-.prato-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px,1fr )); 
-}
-
-.drink-container img {
+.sugestao-container img {
     width: 310px;
     margin-left: 35px;
     border-radius: 20px;
@@ -113,198 +116,86 @@ cursor: pointer;
 }
 
 .titulo3 {
-    background-color: var(--crimson);
+    background-color: var(--black);
     text-align: center;
-    color: var(--black);
+    color: var(--white);
     border-radius: 10px;
     margin: 25px;
     padding: 5px;
     font-family: "Sedan", cursive;
     border: outset var(--black) 3px;
     }
+    
 .input-botao {
   text-align: center;
   
 }
-=======
-@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
-* {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    }
-
-    :root{
-        --lime: #00FF00;
-        --gray1: #a39797;
-        --DarkMagenta: #8B008B;
-        --Red: #FF0000;
-        --navajo: #FFDEAD;
-        --burly: #DEB887;
-        --white: #FFFFFF;
-        --cornsilk: #FFF8DC;
-        --wheat: #F5DEB3;
-        --blanched: #FFEBCD;
-    }
-
-     a {
-        margin: 10px;
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-        text-transform: uppercase;
-        }
-   
-   .titulo2 {
-background-color: var(--navajo);
-text-align: center;
-font-family: "Raleway", cursive;
-color: var(--black);
-border-radius: 10px;
-margin: 25px;
-padding: 5px;
-font-family: "Sedan", cursive;
-}
-
-.menu-de-pratos {
-    background-color: var(--white);
-    display: flex;
-    justify-items: stretch;
-    margin: 100px 150px;
-    font-size: 30px;
-}
-
-.topo-do-site {
-    background-color: var(--white);
-    background-image: url(fundo.jpg);
-    background-size: 100%;
-}
-
-.topo-do-site-car {
-    justify-content: end;
-    display: flex;
-}
-
-.topo-do-site-banner {
-
+.drink-container {
 display: flex;
-
-} 
-
-.image-container {
-    width: 250px;
+flex-direction: column;
 }
 
-.topo-do-site img {
-    width: 150px;
-    max-height: auto;
-    height: 100px;
+.link-header img {
+    width: 60px;
 }
 
-    .banner-container-carrinho {
-        justify-content: flex-end;
-    }
-
-/*Corpo*/
-
-.corpo {
-    background-color: var(--cornsilk);
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
+.drink-container img {
+    width: 510px;
+    margin-left: 35px;
+    border-radius: 20px;
+    border: outset var(--navajo) 10px;
+  
 }
-
-.imagem-container {
-max-width: 250px;
-border-radius: 40px;
-}
-
-.section-container {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-gap: 50px;
-text-align: center;
-}
-
-.product-price {
-    font-size: 20px;
-    color: var(--Red);
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.divisao-container {
-   display: flex;
-    color: black;
-    flex-direction: column;
-   font-size: 30px;
-   text-align: center;
-   margin: 50px 0;
-}
-
-.caixa-container {
-width: 25%;
-text-align: center;
-font-size: 19px;
-margin-left: 130px;
-margin-bottom: 10px;
-}
-
-.butao {
-    width: 95px;
-    height: 30px; 
-    font-size: 15px;
-    margin-left: 125px;
-}
-
-/*cardápio | drinks
-.imagem-cardapio-container {
-width: 40%;
-border-radius: 100px;
-margin: 10px;
-
-}
-
-/*.titulo-menu-prato {
-    border-radius: 10px;
-    font-family: "Sedan", cursive;
-    background-color: var(--navajo);
+/*titulo | Drink */
+.titulodrink {
     text-align: center;
     margin: 25px;
-    padding: 5px; 
-}
-*/
-.comentario-menu {
-
-font-family: "Sedan", cursive;
-font-size: 30px;
-color: var(--Red);
-}
-
-.divisao-menu {
-    background-color: var(--blanched);
-}
-
-.comentario-menu-drink{
+    padding: 5px;
     font-family: "Sedan", cursive;
+    color: var(--black);
+    font-size: 60px;
+}
+
+.subtitulo-container {
+   display: flex;
+    font-family: "Sedan", cursive;
+    font-size: 20px;
+}
+
+.rodape {
+    background-color: #00FF00;
+    font-family: "sedan" , cursive;
     font-size: 30px;
+    border: outset crimson 15px;
 }
 
-.link-header {
+/*botões*/
+.input {
+    height: 40px;
+    width: 100px;
+ border-radius: 10px;
+}
+
+.botao {
+    height: 40px;
+    width: 100px;
+border-radius: 10px;
+margin: 5px;
+}
+
+.div-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 19px;;
-    list-style: none;
+}
+
+.descricao-menu {
+margin: 150px;
+    font-family: "sedan" , cursive;
+    font-size: 40px;
    
+      
 }
 
-
-
-.principal {
-    background-image: url(fundo-madeira1.jpg);
-    
+.button-input {
+   margin-left: 180px;
 }
->>>>>>> ca0faa12c2c6bd0e21f7086a61d2d5a0fb3a7ea7
