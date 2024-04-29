@@ -1,1 +1,1 @@
-# laricca-novo
+# laricca-nova
